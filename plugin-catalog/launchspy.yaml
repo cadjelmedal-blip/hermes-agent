@@ -1,13 +1,13 @@
 name: launchspy
 title: LaunchSpy
-repo: https://github.com/cadjelmedal-blip/launchspy-agent
-sha: 78868555e8cb66cd993dd0e2ef0fc6975adc9bfd
+repo: https://github.com/launchspyio/launchspy-agent
+sha: 65056fae276b7a89273869672f346d28867a9da4
 version: "1.0.1"
 description: "Spy on the ads and funnels of the top coaches and course creators through LaunchSpy's hosted MCP server (Streamable HTTP at https://launchspy.io/api/mcp, OAuth sign-in, no keys in config): search creators by niche and country, read their Meta ads with run dates and EU reach, find and take apart their funnels (steps, builder, pixels, payment stack, pricing), and check what is known about any domain. Bundles the launchspy workflow skill. Agent Plugins v1 package (plugin.json + mcp.json + skills/), configuration only. Disclosure: every tool call goes to LaunchSpy's hosted server (launchspy.io) and acts on the user's LaunchSpy account; each tools/call uses one plan credit; the tool set is served by that server at runtime and is not covered by the pinned sha. All six tools are annotated read-only and the server is marked untrusted. Sign-in runs the pinned mcp-remote@0.1.49 through npx (Node.js 20.18.1+ and npm required), which opens a browser and a local callback port on first use and stores OAuth tokens under ~/.mcp-auth."
 maintainer: LaunchSpy
 tier: community
 category: tools
-docs_url: https://github.com/cadjelmedal-blip/launchspy-agent#readme
+docs_url: https://github.com/launchspyio/launchspy-agent#readme
 requires_hermes: ">=0.21.6"
 readme: true
 platforms: []
